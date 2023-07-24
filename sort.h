@@ -45,4 +45,6 @@ int partition(int *array, int low, int high, size_t size);
 void quicksort(int *array, int low, int high, size_t size);
 void shell_sort(int *array, size_t size);
 void swap_ints(int *num_1, int *num_2);
+void cocktail_sort_list(listint_t **list);
+void swap_me(listint_t *current, listint_t *current_old, listint_t **list);
 #endif
