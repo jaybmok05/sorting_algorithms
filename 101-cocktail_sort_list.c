@@ -35,7 +35,7 @@ void cocktail_sort_list(listint_t **list)
 				print_list(*list);
 			}
 		}
-		first = check;
+		first = last;
 
 	} while (first != last);
 }
@@ -64,4 +64,3 @@ void swap_me(listint_t *current, listint_t *current_old, listint_t **list)
 		*list = current;
 	print_list(*list);
 }
-

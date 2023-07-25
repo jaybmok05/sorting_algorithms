@@ -47,4 +47,6 @@ void shell_sort(int *array, size_t size);
 void swap_ints(int *num_1, int *num_2);
 void cocktail_sort_list(listint_t **list);
 void swap_me(listint_t *current, listint_t *current_old, listint_t **list);
+int get_max(int *array, int size);
+void counting_sort(int *array, size_t size);
 #endif
